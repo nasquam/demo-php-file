@@ -6,12 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+<h1>
+    Welcome to the agoge testing PHP app.
+</h1>    
+
+<p>
     <?php
-
-    echo gethostname();
-
+        $serverHostName = $_SERVER['SERVER_NAME']
+        fprint($serverHostName)
     ?>
+</p>
+
 
 </body>
 </html>
