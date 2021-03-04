@@ -13,8 +13,7 @@
 
 <p>
     <?php
-        $serverHostName = $_SERVER['SERVER_NAME']
-        fprint($serverHostName)
+        phpinfo()
     ?>
 </p>
 
